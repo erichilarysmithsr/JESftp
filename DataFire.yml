@@ -14,3 +14,8 @@ tasks:
       array: ''
       input:
         meetingId: 0
+paths:
+  /paths0:
+    get:
+      action: zoom_us/recordingGet
+      accounts: {}
