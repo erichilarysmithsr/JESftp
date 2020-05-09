@@ -1,0 +1,16 @@
+options:
+  cors: true
+actions:
+  action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: zoom_us/recordingGet
+    accounts: {}
+    monitor:
+      action: zoom_us/recordingGet
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        meetingId: 0
