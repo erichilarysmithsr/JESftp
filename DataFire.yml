@@ -33,6 +33,10 @@ paths:
     get:
       action: zoom_us/recordingGet
       accounts: {}
+  /paths1:
+    get:
+      action: google_bigquery/tables.get
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
