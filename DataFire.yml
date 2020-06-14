@@ -43,3 +43,10 @@ tests:
     accounts: {}
     input:
       meetingId: 0
+  test1:
+    action: google_bigquery/tables.get
+    accounts: {}
+    input:
+      datasetId: '""'
+      projectId: '""'
+      tableId: '""'
