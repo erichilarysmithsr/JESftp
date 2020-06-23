@@ -66,3 +66,8 @@ tests:
       datasetId: '""'
       projectId: '""'
       tableId: '""'
+  test2:
+    action: google_firebaseremoteconfig/projects.getRemoteConfig
+    accounts: {}
+    input:
+      project: '""'
