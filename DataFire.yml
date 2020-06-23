@@ -29,6 +29,17 @@ tasks:
         projectId: '""'
         tableId: '""'
     accounts: {}
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: google_firebaseremoteconfig/projects.getRemoteConfig
+    accounts: {}
+    monitor:
+      action: google_firebaseremoteconfig/projects.getRemoteConfig
+      accounts: {}
+      trackBy: tagColor
+      array: conditions
+      input:
+        project: '""'
 paths:
   /paths0:
     get:
