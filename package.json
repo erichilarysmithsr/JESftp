@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@datafire/zoom_us": "4.0.0",
-    "@datafire/google_bigquery": "5.0.0"
+    "@datafire/google_bigquery": "5.0.0",
+    "@datafire/google_firebaseremoteconfig": "5.0.0"
   },
   "name": "yellowtextbook",
   "version": "1.0.0"
