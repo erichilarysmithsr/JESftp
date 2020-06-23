@@ -87,3 +87,8 @@ tests:
     accounts: {}
     input:
       project: '""'
+  test3:
+    action: google_firebaserules/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
