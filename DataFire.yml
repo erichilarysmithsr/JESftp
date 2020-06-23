@@ -49,6 +49,10 @@ paths:
     get:
       action: google_bigquery/tables.get
       accounts: {}
+  /paths2:
+    get:
+      action: google_firebaseremoteconfig/projects.getRemoteConfig
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
