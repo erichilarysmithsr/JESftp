@@ -65,6 +65,10 @@ paths:
     get:
       action: google_firebaseremoteconfig/projects.getRemoteConfig
       accounts: {}
+  /paths3:
+    get:
+      action: google_firebaserules/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
