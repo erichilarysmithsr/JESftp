@@ -108,3 +108,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test4:
+    action: slack/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
