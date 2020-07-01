@@ -81,6 +81,10 @@ paths:
     get:
       action: google_firebaserules/oauthCallback
       accounts: {}
+  /paths4:
+    get:
+      action: slack/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
