@@ -4,7 +4,8 @@
     "@datafire/google_bigquery": "5.0.0",
     "@datafire/google_firebaseremoteconfig": "5.0.0",
     "@datafire/google_firebaserules": "5.0.0",
-    "@datafire/slack": "5.0.1"
+    "@datafire/slack": "5.0.1",
+    "@datafire/google_classroom": "5.0.0"
   },
   "name": "yellowtextbook",
   "version": "1.0.0"
