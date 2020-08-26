@@ -150,3 +150,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test6:
+    action: linkedin/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
