@@ -77,6 +77,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: linkedin/oauthCallback
+    accounts: {}
+    monitor:
+      action: linkedin/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
