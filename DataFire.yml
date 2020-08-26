@@ -65,6 +65,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: google_classroom/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_classroom/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
