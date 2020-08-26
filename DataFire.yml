@@ -113,6 +113,10 @@ paths:
     get:
       action: google_classroom/oauthCallback
       accounts: {}
+  /paths6:
+    get:
+      action: linkedin/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
