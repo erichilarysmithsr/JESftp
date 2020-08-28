@@ -170,3 +170,7 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test7:
+    action: amazonaws_a4b/GetDevice
+    accounts: {}
+    input: {}
