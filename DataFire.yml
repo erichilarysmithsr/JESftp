@@ -128,6 +128,10 @@ paths:
     get:
       action: linkedin/oauthCallback
       accounts: {}
+  /paths7:
+    get:
+      action: amazonaws_a4b/GetDevice
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
