@@ -144,6 +144,10 @@ paths:
     get:
       action: amazonaws_a4b/GetDevice
       accounts: {}
+  /paths8:
+    get:
+      action: google_webmasters/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
