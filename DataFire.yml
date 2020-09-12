@@ -211,3 +211,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test9:
+    action: google_script/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
