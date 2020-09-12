@@ -8,7 +8,8 @@
     "@datafire/google_classroom": "5.0.0",
     "@datafire/linkedin": "4.0.0",
     "@datafire/amazonaws_a4b": "5.0.0",
-    "@datafire/google_webmasters": "5.0.0"
+    "@datafire/google_webmasters": "5.0.0",
+    "@datafire/google_script": "5.0.0"
   },
   "name": "yellowtextbook",
   "version": "1.0.0"
