@@ -124,6 +124,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task10:
+    schedule: cron(5 8 ? * 0)
+    action: google_storage/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_storage/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
