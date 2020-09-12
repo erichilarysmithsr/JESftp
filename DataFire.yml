@@ -176,6 +176,10 @@ paths:
     get:
       action: google_script/oauthCallback
       accounts: {}
+  /paths10:
+    get:
+      action: google_storage/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
