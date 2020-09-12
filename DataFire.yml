@@ -112,6 +112,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task9:
+    schedule: cron(5 8 ? * 0)
+    action: google_script/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_script/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
