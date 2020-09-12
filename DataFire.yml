@@ -190,3 +190,8 @@ tests:
     action: amazonaws_a4b/GetDevice
     accounts: {}
     input: {}
+  test8:
+    action: google_webmasters/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
