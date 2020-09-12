@@ -160,6 +160,10 @@ paths:
     get:
       action: google_webmasters/oauthCallback
       accounts: {}
+  /paths9:
+    get:
+      action: google_script/oauthCallback
+      accounts: {}
 tests:
   test:
     action: zoom_us/recordingGet
