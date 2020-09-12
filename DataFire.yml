@@ -100,6 +100,17 @@ tasks:
       trackBy: Code
       array: Device.DeviceStatusInfo.DeviceStatusDetails
       input: {}
+  task8:
+    schedule: cron(5 8 ? * 0)
+    action: google_webmasters/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_webmasters/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
