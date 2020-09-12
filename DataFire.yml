@@ -232,3 +232,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test10:
+    action: google_storage/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
